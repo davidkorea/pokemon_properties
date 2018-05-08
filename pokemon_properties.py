@@ -17,6 +17,7 @@ def ananlyse_by_type(data_df,var1):
     plt.savefig('./Type_{}_box.png'.format(var1))
     plt.show()
 
+
 def analyse_dual_vars(data_df,var1,var2):
     sns.jointplot(x=var1,y=var2,data=data_df)
     plt.title('{} vs {}'.format(var1,var2))
