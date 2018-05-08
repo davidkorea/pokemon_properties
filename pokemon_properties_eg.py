@@ -1,4 +1,3 @@
-# pandas 数据源下载地址：https://video.mugglecode.com/data_pd.zip，下载压缩包后解压即可（数据源与上节课相同）
 # -*- coding: utf-8 -*-
 
 """
@@ -87,7 +86,7 @@ def main():
     data_df = collect_data()
 
     # 查看数据信息
-    inspect_data(data_df)
+    # inspect_data(data_df)
 
     # 数据处理
     proc_data_df = process_data(data_df)
